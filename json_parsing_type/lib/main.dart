@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_parsing_type/constant/app_constant.dart';
 import 'package:json_parsing_type/routes/routes.dart';
-import 'package:json_parsing_type/screens/home.dart';
 
 void main() {
   runApp(const MyApp());

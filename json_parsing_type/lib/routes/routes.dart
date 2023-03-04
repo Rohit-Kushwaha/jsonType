@@ -4,6 +4,7 @@ import 'package:json_parsing_type/screens/home.dart';
 import 'package:json_parsing_type/screens/type1.dart';
 import 'package:json_parsing_type/screens/type2.dart';
 import 'package:json_parsing_type/screens/type3.dart';
+import 'package:json_parsing_type/screens/type4.dart';
 
 
 class Routes {
@@ -28,6 +29,8 @@ class RouteGenerators {
         return MaterialPageRoute(builder: (_) => const Type2());
          case Routes.type3:
         return MaterialPageRoute(builder: (_) => const Type3());
+         case Routes.type4:
+        return MaterialPageRoute(builder: (_) => const Type4());
        
         
       default:
