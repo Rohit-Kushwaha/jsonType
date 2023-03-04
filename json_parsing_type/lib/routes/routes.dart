@@ -3,6 +3,7 @@ import 'package:json_parsing_type/constant/app_constant.dart';
 import 'package:json_parsing_type/screens/home.dart';
 import 'package:json_parsing_type/screens/type1.dart';
 import 'package:json_parsing_type/screens/type2.dart';
+import 'package:json_parsing_type/screens/type3.dart';
 
 
 class Routes {
@@ -25,6 +26,10 @@ class RouteGenerators {
         return MaterialPageRoute(builder: (_) => const Type1());
          case Routes.type2:
         return MaterialPageRoute(builder: (_) => const Type2());
+         case Routes.type3:
+        return MaterialPageRoute(builder: (_) => const Type3());
+       
+        
       default:
         return undefindedRoute();
     }
