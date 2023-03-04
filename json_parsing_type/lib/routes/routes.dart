@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:json_parsing_type/constant/app_constant.dart';
 import 'package:json_parsing_type/screens/home.dart';
 import 'package:json_parsing_type/screens/type1.dart';
+import 'package:json_parsing_type/screens/type2.dart';
 
 
 class Routes {
@@ -22,6 +23,8 @@ class RouteGenerators {
                 ));
       case Routes.type1:
         return MaterialPageRoute(builder: (_) => const Type1());
+         case Routes.type2:
+        return MaterialPageRoute(builder: (_) => const Type2());
       default:
         return undefindedRoute();
     }
